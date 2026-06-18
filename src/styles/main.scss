@@ -1,0 +1,87 @@
+@use 'variaveis';
+@use 'hero';
+@use 'sobre';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+}
+
+.title--big--white {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoBranco;
+    font-size: 50px;
+}
+
+.title--white {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoBranco;
+    font-size: 40px;
+}
+
+.title--small--white {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoBranco;
+    font-size: 30px;
+}
+
+.title--big--black {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoPreto;
+    font-size: 50px;
+}
+
+.title--black {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoPreto;
+    font-size: 40px;
+}
+
+.title--small--black {
+    font-family: Science Gothic;
+    color: variaveis.$corTextoPreto;
+    font-size: 30px;
+}
+
+.text--big--white {
+    font-family: Outfit;
+    color: variaveis.$corTextoBranco;
+    font-size: 20px;
+}
+
+.text--white {
+    font-family: Outfit;
+    color: variaveis.$corTextoBranco;
+    font-size: 18px;
+}
+
+.text--small--white {
+    font-family: Outfit;
+    color: variaveis.$corTextoBranco;
+    font-size: 16px;
+}
+
+.text--big--black {
+    font-family: Outfit;
+    color: variaveis.$corTextoPreto;
+    font-size: 20px;
+}
+
+.text--black {
+    font-family: Outfit;
+    color: variaveis.$corTextoPreto;
+    font-size: 18px;
+}
+
+.text--small--black {
+    font-family: Outfit;
+    color: variaveis.$corTextoPreto;
+    font-size: 16px;
+}

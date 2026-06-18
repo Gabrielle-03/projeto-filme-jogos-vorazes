@@ -1,0 +1,28 @@
+.sobre {
+    padding: 2vw 15vw;
+    padding-top: 5vw;
+
+    &__historia {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+        &__text {
+            padding-right: 20px;
+        }
+    }
+
+    &__autora {
+        display: flex;
+        padding-top: 10px;
+
+        &__text {
+            padding-left: 20px;
+        }
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+}
