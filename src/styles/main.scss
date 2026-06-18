@@ -1,6 +1,8 @@
 @use 'variaveis';
 @use 'hero';
 @use 'sobre';
+@use 'conteudo';
+@use 'header';
 
 
 * {
@@ -84,4 +86,12 @@ body {
     font-family: Outfit;
     color: variaveis.$corTextoPreto;
     font-size: 16px;
+}
+
+
+footer {
+    div {
+        padding: 95px;
+        background-color: rgb(47, 44, 41);
+    }
 }
