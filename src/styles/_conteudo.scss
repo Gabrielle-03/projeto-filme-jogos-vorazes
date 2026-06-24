@@ -8,14 +8,21 @@
         margin-top: 44px;
         display: none;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
+        gap: 20px;
+        justify-content: center; 
+        justify-items: center;
 
         &--is-active {
             display: grid;
         }
 
         &__item {
-            
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+
             img {
                 width: 250px;
                 height: 350px;

@@ -2,11 +2,11 @@
     position: sticky;
     top: 0;
     left: 0;
-    transition: background-color .5s ease;
     z-index: 3;
 
     &__container {
-        padding: 3px 63px;
+        padding: 3px auto;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         background-color: #00000080;
@@ -18,16 +18,13 @@
         max-width: 100px;
         width: 100%;
         margin: 5px;
-        transition: opacity .5s ease;
     }
 
     &__links {
         display: flex;
-        padding-left: 74vw;
 
         &__item {
             margin: 5px;
-            transition: opacity .5s ease;
         }
     }
 
