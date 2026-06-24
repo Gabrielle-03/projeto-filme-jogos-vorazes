@@ -27,6 +27,14 @@
         flex-direction: column;
         justify-content: center;
         z-index: 2;
+
+        @media (max-width: 768px) {
+            top: 15%;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            padding: 2vw 10vw;
+        }
         
         h2 {
             text-shadow: 0 0 15px #1d1d1d, 0 0 30px #1d1d1d;

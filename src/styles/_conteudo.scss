@@ -12,6 +12,10 @@
         justify-content: center; 
         justify-items: center;
 
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
         &--is-active {
             display: grid;
         }
@@ -22,6 +26,10 @@
             flex-direction: column;
             justify-content: center; 
             align-items: center;
+
+            @media (max-width: 768px) {
+                margin-right: 20px;
+            }
 
             img {
                 width: 250px;

@@ -2,13 +2,25 @@
     padding: 2vw 15vw;
     padding-top: 5vw;
 
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
     &__historia {
         display: flex;
         padding-top: 10px;
         padding-bottom: 50px;
 
+        @media (max-width: 768px) {
+            display: block;
+        }
+
         &__text {
             padding-right: 20px;
+
+            @media (max-width: 768px) {
+                padding-right: 0;
+            }
         }
     }
 
@@ -16,13 +28,27 @@
         display: flex;
         padding-top: 10px;
 
+        @media (max-width: 768px) {
+            display: block;
+        }
+
         &__text {
             padding-left: 20px;
+
+            @media (max-width: 768px) {
+                padding-left: 0;
+            }
         }
     }
 
     img {
         width: 300px;
         height: auto;
+
+        @media (max-width: 768px) {
+            padding-right: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
     }
 }
